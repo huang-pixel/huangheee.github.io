@@ -4,12 +4,12 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'Roboto Mono';
+$base-font-family: 'Roboto Mono',PT Serif', Georgia, Times, 'Times New Roman', serif;;
 $base-font-size:   12pt;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$mono-font-family: 'Roboto Mono';
+$mono-font-family: 'Roboto Mono', 'Fira Code';
 
 $text-color:       hsl(0, 0%, 25%);
 
