@@ -1,22 +1,21 @@
 # Site settings
-title: "Replicant's"
-author: "Replicant"
-description: "This is a blog about software, some mathematics, and the occasional philosophy. Not necessarily in that order."
-keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
-biography: "I am a Professor of Software Engineering at the <a href='http://www.fe.up.pt'>Faculty of Engineering</a>, University of Porto and Senior Researcher at <a href='https://www.inesctec.pt'>INESC TEC</a>. Here you can find my <a href='/assets/thesis.pdf'>PhD Thesis</a> and my <a href='/assets/cv.pdf'>Résumé</a>."
-colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
+title: "He's"
+author: "HUANG He"
+description: "This is a blog for code and learning notes. Not necessarily in that order."
+keywords: "NLP, Data analysis, Programming, Machine Learning, Statistics"
+biography: "I'm a student of the Paris Cité University."
 
 baseurl: ""
-url: " https://replicantim.github.io/"
+url: "https://huangheee.github.io/"
 
 #twitter_username: ferreira_hugo
-github_username: replicantim
+github_username: huangheee
 #douchi_username: 
 #linkedin_username: hugoserenoferreira
 #facebook_username: hugo.sereno.ferreira
 #google-analytics: UA-69060-5
 
-simple_search: http://google.com/search
+#simple_search: http://google.com/search
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
