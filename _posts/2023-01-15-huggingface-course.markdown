@@ -1,14 +1,11 @@
 ---
 layout: post
-title: HuaggingFace Course
+title: HuggingFace Course
 date: 2023-01-15 14:00
 comments: true
 external-url:
 categories: Learn
 ---
-
-
-
 
 # Transformer models
 
@@ -19,6 +16,8 @@ All the Transformer models mentioned above (GPT, BERT, BART, T5, etc.) have been
 `pretrained model`: A pre-trained model is *saved network that was previously trained on a large dataset, typically on a large-scale image-classification task*. You either use the pretrained model as is or use transfer learning to customize this model to a given task.
 
 `transfer learning`: Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.
+
+<!-- more -->
 
 `Fine tuning` : Fine-tuning is *a way of applying or utilizing transfer learning*. Specifically, fine-tuning is a process that takes a model that has already been trained for one given task and then tunes or tweaks the model to make it perform a second similar task.
 
