@@ -24,4 +24,4 @@ permalink: /blog/:year/:month/:day/:title/
 encoding: "utf-8"
 
 # Conversion
-excerpt_separator: "\n\n"
+excerpt_separator: '<!-- more -->'
