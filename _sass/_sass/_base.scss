@@ -7,7 +7,8 @@ body {
   -o-font-feature-settings: "kern", "liga", "dlig", "salt";
   font-feature-settings: "kern", "liga", "dlig", "salt";
   text-rendering: optimizeLegibility;
-
+  text-align: justify;
+  
   background-color: $background-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
