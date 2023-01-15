@@ -1,11 +1,14 @@
 ---
 layout: post
 title: HuaggingFace Course
-date: 2023 14:00
+date: 2023-01-15 14:00
 comments: true
 external-url:
 categories: Learn
 ---
+
+
+
 
 # Transformer models
 
