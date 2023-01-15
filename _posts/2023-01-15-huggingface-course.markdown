@@ -9,6 +9,7 @@ categories: Learn
 
 # Transformer models
 
+
 Mentions : 
 
 All the Transformer models mentioned above (GPT, BERT, BART, T5, etc.) have been trained as _language models_.
@@ -32,13 +33,15 @@ All the Transformer models mentioned above (GPT, BERT, BART, T5, etc.) have been
 **Introduction**
 The model is primarily composed of two blocks:
 
-- `Encoder (left)`: The encoder receives an input and builds a representation of it (its features). This means that the model is optimized to acquire understanding from the input.
+- `Encoder (left)`: The encoder receives an input and builds a representation of it (its features). This means that the model is optimized to acquire understanding from the input.  
+
 - `Decoder (right)`: The decoder uses the encoder’s representation (features) along with other inputs to generate a target sequence. This means that the model is optimized for generating outputs.
 
 Each of these parts can be used independently, depending on the task:
 
 - `Encoder-only models`: Good for tasks that require understanding of the input, such as sentence classification and named entity recognition.
-- `Decoder-only models`: Good for generative tasks such as text generation.
+- `Decoder-only models`: Good for generative tasks such as text generation.  
+
 - `Encoder-decoder models` or `sequence-to-sequence models`: Good for generative tasks that require an input, such as translation or summarization.
 
 ## Attention layers
@@ -50,7 +53,8 @@ A key feature of Transformer models is that they are built with special layers c
 As we dive into Transformer models in this course, you’ll see mentions of _architectures_ and _checkpoints_ as well as _models_. These terms all have slightly different meanings:
 
 - `Architecture`: This is the skeleton of the model — the definition of each layer and each operation that happens within the model.
-- `Checkpoints`: These are the weights that will be loaded in a given architecture.
+- `Checkpoints`: These are the weights that will be loaded in a given architecture.  
+
 - `Model`: This is an umbrella term that isn’t as precise as “architecture” or “checkpoint”: it can mean both. This course will specify _architecture_ or _checkpoint_ when it matters to reduce ambiguity.
 
 For example, BERT is an architecture while bert-base-cased, a set of weights trained by the Google team for the first release of BERT, is a checkpoint. However, one can say “the BERT model” and “the bert-base-cased model.”
@@ -75,8 +79,10 @@ This architecture contains only the base Transformer module: given some inputs, 
 >`A high-dimensional vector ?`
 > 
  The vector output by the Transformer module is usually large. It generally has three dimensions:
-> - `Batch size`: The number of sequences processed at a time (2 in our example).
-> - `Sequence length`: The length of the numerical representation of the sequence (16 in our example).
+> - `Batch size`: The number of sequences processed at a time (2 in our example).  
+
+> - `Sequence length`: The length of the numerical representation of the sequence (16 in our example).  
+
 > - `Hidden size`: The vector dimension of each model input. Hidden size is number of features of the hidden state for RNN. So if you increase hidden size then you compute bigger feature as hidden state output.
 > - [Difference between hidden dimension and n_layers in rnn using pytorch](https://stackoverflow.com/questions/63294347/difference-between-hidden-dimension-and-n-layers-in-rnn-using-pytorch)
 
